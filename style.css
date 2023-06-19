@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+    background-color: hsl(327, 88%, 37%);
+    color:#010000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 11%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.Obsessão-imagem{
+    width: 30%;
+}
+
+.lançamento{
+    background-image: linear-gradient(hsl(327, 88%, 37%),#8e1017);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.outros-produtos{
+    background-image: linear-gradient(#8e1017, #010000);
+    color: white;
+}
+
+.lançamento-div{
+    width: 40%;
+}
+.título-livro{
+    padding: 24px 0;
+}
+.livro-alt{
+    width: 150px;
+}
+.livro-ícone{
+    width: 22px;
+}
+.ícones-div{
+    text-align: center;
+}
+
+.produtos-exclusivos{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.todos-produtos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+.rodape{
+    background-color: #010000;
+    text-align: center;
+    padding: 20px 0;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
